@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+    <!-- Title Tag -->
+	<title>FutureTech Group</title>
+
+    <!-- <<Mobile Viewport Code>> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+            
+    <!-- <<Attched Stylesheets>> -->
+	<link rel="stylesheet" href="css/theme.css" type="text/css" />
+	<link rel="stylesheet" href="css/media.css" type="text/css" />
+	<link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
+    <link href='http://fonts.useso.com/css?family=Open+Sans:400,300,600,700,800,600italic' rel='stylesheet' type='text/css'>
+    
+    <!-- <<Attched Javascripts>> -->
+	<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="js/modernizr.js"></script>
+    
+    <!--引用百度地图API-->
+	<style type="text/css">
+    html,body{margin:0;padding:0;}
+    .iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+    .iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
+	</style>
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=7dp0sDVGCNpadeC5MXX0eaZN"></script>
+    
+    <style>
+     .div1{position:absolute; top:975px; z-index:9;filter:alpha(opacity=50)}
+     .div2{ position:relative; z-index:-10;left:0; }  
+	</style>
+</head>
+<body>
+
+<!-- \\ Begin Holder \\ -->
+<div class="DesignHolder">
+	
+	<!-- \\ Begin Frame \\ -->
+	<div class="LayoutFrame">
+		
+		<!-- \\ Begin Header \\ -->
+		<header class="header">
+        	<div class="Center">
+				
+               <!-- \\ Begin Top Bar \\ -->
+                <div class="Top_Bar">	
+                    
+                    <div class="site-logo">
+                    
+                        <a href="#"><figure><img src="http://main-pics.oss-cn-hangzhou.aliyuncs.com/ft_logo.png" alt="Image"></figure></a>
+						<audio controls src="sound/bgma.mp3" hidden autoplay loop id="bAudio"></audio>
+						<script type="text/javascript"> document.getElementById("bAudio").volume=0.2; </script>
+                    </div>
+			
+                    <!-- \\ Begin Navigation \\ -->
+                    <nav class="Navigation">
+        
+                        <ul>
+                            <li class="active"><a href="index.html"><span>home</span></a></li>
+                            <!-- <li class="gap"><a href="#About"><span>about</span></a></li> -->
+                            <li class="gap gap1"><a href=""><span>Code Group</span></a></li>
+                        </ul>
+                        
+                        <figure><img src="http://main-pics.oss-cn-hangzhou.aliyuncs.com/triangle-img.png" alt="Image" class="triangle"></figure>
+        
+                    </nav>
+                    <!-- // End Navigation // -->
+	
+                  <div class="clear"></div>
+                </div>
+                <!-- // End Top Bar // -->
+              
+
+                <!-- \\ Begin Product Section \\ -->
+                <div class="Product_sec">
+    				
+                    <ul>
+                    	<li>
+                        	<div class="right">
+
+                                <div class="img">
+                                
+                                    <figure><img src="http://main-pics.oss-cn-hangzhou.aliyuncs.com/atns.png" alt="Image"></figure>
+                                
+                                </div>
+
+                                 <div class="Details">
+                                    
+                                    <h3>王意如  <span>Isaac Wang</span> </h3>
+                                    
+                                    <p>    
+                                    <br>15211088
+                                    <br>Project Manager & Architect
+                                    <br>A program lover 
+                                    
+                                     </p>
+                                    
+                                    <a href="http://wpa.qq.com/msgrd?v=3&uin=632799937&site=qq&menu=yes" class="button" target="_blank">contact</a>
+                           
+                                </div>
+
+                        	</div>                            
+                        </li>
+
+                    	<li>
+                        	<div class="left">
+
+                                <div class="img" >
+                                    
+                                    <figure><img src="http://main-pics.oss-cn-hangzhou.aliyuncs.com/hcj.jpg" alt="Image"  width="210" ></figure>
+                                    
+                                </div>
+
+                               <div class="Details">
+                                    
+                                    <h3>侯传嘉<span> </span> </h3>
+                                    
+                                    <p>    
+                                    <br>15211087
+                                    <br>Main Front End & UI Designer
+                                    <br>A girl lover
+                                    
+                                     </p>
+                                    
+                                    <a href="http://wpa.qq.com/msgrd?v=3&uin=893211912&site=qq&menu=yes" class="button" target="_blank">contact</a>
+                                
+                                </div>
+                           
+                           	</div> 
+                        </li>
+                    </ul>                    
+    
+                </div>
+                <!-- // End Product Section // -->
+				
+                <a href="#jump"><figure><img src="http://main-pics.oss-cn-hangzhou.aliyuncs.com/arrow-img.png" alt="Arrow" class="arrow"></figure></a>
+                
+			</div>
+		</header>
+		<!-- // End Header // -->
+		
+	
+
+            	
+
+		
+		
+		
+		<!-- // End Footer // -->
+		
+	</div>
+	<!-- // End Layout Frame // -->
+	
+</div>
+<!-- // End Design Holder // -->
+
+ <div  class="div1" style="width:100%; height:200px; border:#ccc solid 1px;"  id="cover" onclick="hide()"></div>
+ <script>
+ 	function hide() {
+		 document.getElementById('cover').style.display = "none";
+	}
+ </script>
+ 
+ 
+ <div  class="div2" style="width:100%; height:200px; border:#ccc solid 1px;" id="allmap" onmouseout="show()"></div>      	
+ <script>
+ 	function show() {
+		 document.getElementById('cover').style.display = "inline";
+	}
+ </script>
+
+<!-- \\ Begin Holder \\ -->
+<div class="DesignHolder">
+	
+	<!-- \\ Begin Frame \\ -->
+	<div class="LayoutFrame">
+		
+		<!-- \\ Begin Header \\ -->
+		<header class="header" name="jump" id="jump">
+        	<div class="Center">
+				
+               <!-- \\ Begin Top Bar \\ -->
+                <div class="Top_Bar">	
+                    
+                   
+			
+                    <!-- \\ Begin Navigation \\ -->
+                    <nav class="Navigation">
+        
+                        <ul>
+                            <li class="active"><a href="index.html"><span>home</span></a></li>
+                            <!-- <li class="gap"><a href="#About"><span>about</span></a></li> -->
+                            <li class="gap gap1"><a href=""><span>Art Group</span></a></li>
+                        </ul>
+                        
+                        <figure><img src="http://main-pics.oss-cn-hangzhou.aliyuncs.com/triangle-img.png" alt="Image" class="triangle"></figure>
+        
+                    </nav>
+                    <!-- // End Navigation // -->
+	
+                  <div class="clear"></div>
+                </div>
+                <!-- // End Top Bar // -->
+              
+
+                <!-- \\ Begin Product Section \\ -->
+                <div class="Product_sec">
+    				
+                    <ul>
+                    	<li>
+                        	<div class="right">
+
+                                <div class="img">
+                                
+                                    <figure><img src="http://main-pics.oss-cn-hangzhou.aliyuncs.com/gxm.png" alt="Image"></figure>
+                                
+                                </div>
+
+                                <div class="Details">
+                                    
+                                    <h3>公绪民  <span></span> </h3>
+                                    <br>
+                                    <p>    15211112
+                                    <br>
+                                    <br>Art Director & Chief Content Officer
+                                    <br>A high cold man
+
+                                    
+                                     </p>
+                                    
+                                    <a href="http://wpa.qq.com/msgrd?v=3&uin=565530192&site=qq&menu=yes" class="button" target="_blank">contact</a>
+                                
+                                </div>
+
+                        	</div>                            
+                        </li>
+
+                    	<li>
+                        	<div class="left">
+
+                                <div class="img">
+                                    
+                                    <figure><img src="http://main-pics.oss-cn-hangzhou.aliyuncs.com/jyde.jpg" alt="Image"></figure>
+                                    
+                                </div>
+
+                                <div class="Details">
+                                    
+                                    <h3>加依达尔<span>Jaydar </span> </h3>
+                                    
+                                    <p>15211026
+                                    <br>
+                                    <br>Chief Editor
+                                    <br>A football lover
+                                    </p>
+                                    
+                                    <a href="http://wpa.qq.com/msgrd?v=3&uin=1549819342&site=qq&menu=yes" class="button" target="_blank">contact</a>
+                                
+                                </div>
+                           
+                           	</div> 
+                        </li>
+                    </ul>                    
+    
+                </div>
+                <!-- // End Product Section // -->
+				
+                <a href="index.html"><figure><img src="http://main-pics.oss-cn-hangzhou.aliyuncs.com/arrow-back-img.png" alt="Arrow" class="arrow"></figure></a>
+                
+			</div>
+		</header>
+		<!-- // End Header // -->
+		
+	
+
+     
+
+		
+		
+		<!-- \\ Begin Footer \\-->
+		<footer>
+     
+				
+                 <div class="Center">
+                <form action="https://shenghuo.alipay.com/send/payment/fill.htm" method="POST" target="_blank" accept-charset="GBK">
+                      <input name="optEmail" type="hidden" value="13796620268"> <p>Copyright © 2015 FutureTech  Group 京ICP备15061858号</p>
+                      <input name="pay" type="image" src="http://main-pics.oss-cn-hangzhou.aliyuncs.com/alipay.png"  width="100" />
+                      <input name="payAmount" type="hidden" value="2.33">
+                      <input id="title" name="title" type="hidden" value="支持我们的实验性项目(^_^)">
+                      <input name="memo" type="hidden" value="谢谢您的支持 如方便敬请留下个人信息">
+                    </form>
+              </div>
+
+		
+		</footer>
+		<!-- // End Footer // -->
+		
+	</div>
+	<!-- // End Layout Frame // -->
+	
+</div>
+<!-- // End Design Holder // -->
+
+
+</body>
+
+</html>
+
+
+<script type="text/javascript">
+   //创建和初始化地图函数：
+
+	var map = new BMap.Map("allmap");    // 创建Map实例
+	map.centerAndZoom(new BMap.Point(116.2820, 40.16033), 16);  // 初始化地图,设置中心点坐标和地图级别
+	map.addControl(new BMap.MapTypeControl());   //添加地图类型控件
+	map.setCurrentCity("北京");          // 设置地图显示的城市 此项是必须设置的
+	map.enableScrollWheelZoom();     //开启鼠标滚轮缩放
+	map.enableDragging(); 
+   createMap();//创建地图
+ 
+</script>

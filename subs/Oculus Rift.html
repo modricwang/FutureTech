@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Oculus Rift</title>
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/flexslider.css" type="text/css">
+<link href="css/styles.css?v=1.6" rel="stylesheet">
+<link href="css/queries.css?v=1.6" rel="stylesheet">
+<link href="css/jquery.fancybox.css" rel="stylesheet">
+<!-- Fonts -->
+<link href='http://fonts.useso.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+<style>
+.getstartedbtn {
+	background-color: #000;
+	padding: 20px 80px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	font-size: 22px;
+	letter-spacing: 2px;
+	box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.4);
+	transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	display: inline-block;
+}
+.getstartedbtn:hover {
+	background-color:#CCC;
+	color:#000;
+}
+::selection
+{
+	background:#66CCFF;
+	color:#FFFFFF;
+}
+</style>
+</head>
+<style>
+.hero {
+	background: url('http://sub-imgs.oss-cn-hangzhou.aliyuncs.com/oculousrift_1.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding: 65px 0;
+	height: auto;
+}
+.download-now {
+	background: #000000 url('http://sub-imgs.oss-cn-hangzhou.aliyuncs.com/Oculus Rift3.png') no-repeat right 65px;
+	background-size: 40%;
+}
+.download-now-2 {
+	background: #000000 url('http://sub-imgs.oss-cn-hangzhou.aliyuncs.com/Oculus Rift2.png') no-repeat right 65px;
+	background-size: 35%;
+}
+.download-now-2 p {
+	color: #fff;
+	font-size: 16px;
+	margin: 40px 30px 40px 0;
+	line-height: 30px;
+}
+.download-now p {
+	color: #fff;
+	font-size: 16px;
+	margin: 40px 30px 40px 0;
+	line-height: 30px;
+}
+.download-btn {
+	border: solid 3px #fff;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	font-size: 17px;
+	letter-spacing: 2px;
+	transition: all 0.5s ease;
+	padding: 15px 70px;
+	display: inline-block;
+	color: #fff;
+	margin-bottom: 185px;
+}
+.download-btn:hover, .download-btn:focus {
+	text-decoration: none;
+	border-color: #666666;
+	color: #666666;
+}
+footer {
+	background-color: #000000;
+	padding: 75px 0 220px;
+}
+footer p {
+	color: #fff;
+	line-height: 30px;
+}
+.footer-nav {
+	list-style: none;
+	padding: 0;
+}
+.footer-nav li a {
+	display: block;
+	color: #fff;
+	padding: 5px;
+	transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+}
+.footer-nav li a:hover, .footer-nav li a:focus {
+	text-decoration: none;
+	color: #5db3af;
+}
+.badge-btn {
+	width: 60px;
+	height: 62px;
+	background: url('http://sub-imgs.oss-cn-hangzhou.aliyuncs.com/footer-logo.png') no-repeat center center;
+	text-indent: -99999px;
+	display: block;
+	margin: 65px auto 65px;
+	-webkit-transition-duration: 3s;
+	-moz-transition-duration: 3s;
+	-o-transition-duration: 3s;
+	transition-duration: 3s;
+	-webkit-transition-property: -webkit-transform;
+	-moz-transition-property: -moz-transform;
+	-o-transition-property: -o-transform;
+	transition-property: transform;
+}
+.badge-btn:hover, .badge-btn:focus {
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+}
+</style>
+
+<body>
+<section class="hero" id="hero">
+  <div class="container">
+    <div class="row"> </div>
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2 text-center">
+        <h1 class="animated bounceInDown"><font color="#CCCCCC">Oculus Rift</font></h1>
+        <p class="animated fadeInUpDelay" > <font color="#FFFFFF" size="5"></font><font color="#CCCCCC" size="6">4D gamer</font> </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-2 col-md-offset-5 text-center"> <a href="vid/glass.mp4?title=0&amp;byline=0&amp;portrait=0&amp;color=1883ad&amp;autoplay=1" class="hero-play-btn various fancybox.iframe">Play Button</a> </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3 text-center"> <a href="#getstarted" class="getstartedbtn" >Get Started</a> </div>
+    </div>
+  </div>
+</section>
+<section class="download-now" id="getstarted">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 wp1">
+        <h1> <font face="微软雅黑" color="#FFFFFF">在现实中游戏</font> </h1>
+        <font face="微软雅黑" >
+        <p> Oculus Rift具有两个目镜，每个目镜的分辨率为 640×800，双眼的视觉合并之后拥有 1280×800 的分辨率。并且具有陀螺仪控制的视角是这款游戏产品一大特色，这样一来，游戏的沉浸感大幅提升。
+        </p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <a href="https://www.oculus.com/en-us/rift/" target="_blank" class="download-btn">前往Oculus Rift网站了解更多</a> </font> </div>
+    </div>
+  </div>
+</section>
+<section class="download-now-2" id="getstarted2">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 wp1">
+      	<p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <h1> <font face="微软雅黑" color="#FFFFFF" size="+6">What has it done？</font> </h1>
+        <font face="微软雅黑" >
+        <p>Oculus Rift在 E3 2013 中揽获多项媒体大奖，且在 E3 官方奖项 Game Critics Awards 中，击败新发布的 Xbox One、PS4，获得最佳硬件奖。而这项奖项历来几乎被索尼、微软、任天堂新发布的掌机、主机设备所包揽。[8]  Oculus公司已在开发者中建立起良好声誉，截至2014年3月，Oculus Rift的开发工具已收到超过7.5万份订单。</p>
+		<p>我们相信，Oculus Rift将会给游戏以及影视爱好者带来无与伦比的体验。</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+		</div>
+  </div>
+</section>
+<footer>
+  <div class="container" >
+    <div class="row">
+      <div class="col-md-12 text-center"> <a href="../vr.html" class="badge-btn">Badge Button</a>
+        <form action="https://shenghuo.alipay.com/send/payment/fill.htm" method="POST" target="_blank" accept-charset="GBK">
+          <input name="optEmail" type="hidden" value="13796620268">
+          <p>Copyright © 2015 FutureTech  Group 京ICP备15061858号</p>
+          <input name="pay" type="image" src="http://sub-imgs.oss-cn-hangzhou.aliyuncs.com/alipay.png"  width="100" />
+          <input name="payAmount" type="hidden" value="2.33">
+          <input id="title" name="title" type="hidden" value="支持我们的实验性项目(^_^)">
+          <input name="memo" type="hidden" value="谢谢您的支持 如方便敬请留下个人信息">
+        </form>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="http://ajax.useso.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
+<script src="js/jquery.fancybox.pack.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/scripts.js?v=1.7"></script> 
+<script src="js/jquery.flexslider.js"></script> 
+<script src="js/jquery.smooth-scroll.js"></script> 
+<script src="js/modernizr.js"></script> 
+<script src="js/waypoints.min.js"></script>
+</body>
+</html>

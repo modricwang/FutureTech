@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<!-- Title Tag -->
+<title>FutureTech Group</title>
+
+<!-- <<Mobile Viewport Code>> -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- <<Attched Stylesheets>> -->
+<link rel="stylesheet" href="css/theme.css" type="text/css" />
+<link rel="stylesheet" href="css/media.css" type="text/css" />
+<link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
+<link href='http://fonts.useso.com/css?family=Open+Sans:400,300,600,700,800,600italic' rel='stylesheet' type='text/css'>
+
+<!-- <<Attched Javascripts>> -->
+<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/modernizr.js"></script>
+
+<!--引用百度地图API-->
+<style type="text/css">
+html, body {
+	margin: 0;
+	padding: 0;
+}
+.iw_poi_title {
+	color: #CC5522;
+	font-size: 14px;
+	font-weight: bold;
+	overflow: hidden;
+	padding-right: 13px;
+	white-space: nowrap
+}
+.iw_poi_content {
+	font: 12px arial, sans-serif;
+	overflow: visible;
+	padding-top: 4px;
+	white-space: -moz-pre-wrap;
+	word-wrap: break-word
+}
+</style>
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=7dp0sDVGCNpadeC5MXX0eaZN"></script>
+</head>
+<body>
+
+<!-- \\ Begin Holder \\ -->
+<div class="DesignHolder" id="TOP"> 
+  
+  <!-- \\ Begin Frame \\ -->
+  <div class="LayoutFrame"> 
+    
+    <!-- \\ Begin Header \\ -->
+    <header class="header">
+      <div class="Center"> 
+        
+        <!-- \\ Begin Top Bar \\ -->
+        <div class="Top_Bar">
+          <div class="site-logo"> <a href="http://sub-imgs.oss-cn-hangzhou.aliyuncs.com/5-FutureTech-%E8%B5%B0%E8%BF%9B%E8%BD%AF%E4%BB%B6%E9%A1%B9%E7%9B%AE%E5%B1%95%E7%A4%BAppt-%E7%8E%8B%E6%84%8F%E5%A6%82.pptx">
+            <figure><img src="http://main-pics.oss-cn-hangzhou.aliyuncs.com/ft_logo.png" alt="Image"></figure>
+            </a>
+            <audio controls hidden="hidden" src="sound/bgm.mp3" autoplay loop id="bgAudio"></audio>
+            <script type="text/javascript"> document.getElementById("bgAudio").volume=0.2; </script> 
+          </div>
+          
+          <!-- \\ Begin Navigation \\ -->
+          <nav class="Navigation">
+            <ul>
+              <li class="active"><a href="#"><span>home</span></a></li>
+              <!-- <li class="gap"><a href="#About"><span>about</span></a></li> -->
+              <li class="gap gap1"><a href=""><span>main</span></a></li>
+            </ul>
+            <figure><img src="http://main-pics.oss-cn-hangzhou.aliyuncs.com/triangle-img.png" alt="Image" class="triangle"></figure>
+          </nav>
+          <!-- // End Navigation // -->
+          
+          <div class="clear"></div>
+        </div>
+        <!-- // End Top Bar // --> 
+        
+        <!-- \\ Begin Product Section \\ -->
+        <div class="Product_sec">
+          <ul>
+            <li>
+              <div class="right">
+                <div class="img">
+                  <figure><img src="http://main-pics.oss-cn-hangzhou.aliyuncs.com/VR-1.png" alt="Image"></figure>
+                </div>
+                <div class="Details">
+                  <h3>虚拟现实 <span>Virtual Reality</span> </h3>
+                  <p> 虚拟现实是多种技术的综合，包括实时三维计算机图形技术，广角（宽视野）立体显示技术，对观察者头、眼和手的跟踪技术，以及触觉/力觉反馈、立体声、网络传输、语音输入输出技术等。 </p>
+                  <a href="vr.html" class="button">Learn more</a> </div>
+              </div>
+            </li>
+            <li>
+              <div class="left">
+                <div class="img">
+                  <figure><img src="http://main-pics.oss-cn-hangzhou.aliyuncs.com/ar.png" alt="Image"></figure>
+                </div>
+                <div class="Details">
+                  <h3>增强现实<span>Augmented Reality</span> </h3>
+                  <p> 增强现实技术是一种将真实世界信息和虚拟世界信息“无缝”集成的新技术，是把原本在现实世界的一定时间空间范围内很难体验到的实体信息(视觉信息,声音,味道,触觉等),通过电脑等科学技术，模拟仿真后再叠加，将虚拟的信息应用到真实世界，被人类感官所感知，从而达到超越现实的感官体验。 </p>
+                  <a href="ar.html" class="button">Learn more</a> </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <!-- // End Product Section // --> 
+        
+        <a href="#TOP">
+        <figure><img src="http://main-pics.oss-cn-hangzhou.aliyuncs.com/arrow-up-img.png" alt="Arrow" class="arrow"></figure>
+        </a> </div>
+    </header>
+    <!-- // End Header // --> 
+    
+    <!-- \\ Begin Container \\ -->
+    <div id="Container"> 
+      
+      <!-- \\ Begin Contact Section \\ -->
+      <div class="Contact_sec" id="Contact"> 
+        
+        <!-- \\ Begin Contact Side \\ -->
+        <div class="Contactside">
+          <div class="Center">
+            <div class="Form">
+              <h3>About <span>us</span></h3>
+              
+              <!--<form method="post" action="#">-->
+              <fieldset>
+                <p>
+                  <input name="name" type="text" class="field" id="name" maxlength="50" placeholder="                    FutureTech Group">
+                </p>
+                <p>
+                  <input name="email" type="email" class="field1" id="email" placeholder="                    modricwang@126.com">
+                </p>
+                <p>
+                  <textarea name="message" id="message" placeholder="                    Students,
+                      
+                              School of Software,
+
+                                             BUAA"></textarea>
+                </p>
+                <p>          
+                  <input name="submit" type="submit" class="Button" id="submit" value="                                               More info" onclick="location.href='about_us.html'" id="mif">
+                  <style>
+				     .mif {
+						 text-align:left;}
+				  </style>
+                  
+                </p>
+              </fieldset>
+            </div>
+          </div>
+          
+          <!-- \\ Begin map Section \\ -->
+          <div class="map_sec">
+            <div class="center"> 
+              
+              <!--百度地图容器-->
+              <div   style="width:55%; height:501px; border:#ccc solid 1px;" id="allmap"></div>
+            </div>
+          </div>
+          <!-- // End map Section // --> 
+          
+        </div>
+        <!-- // End Contact Side // --> 
+        
+      </div>
+      <!-- // End Contact Section // --> 
+      
+    </div>
+    <!-- // End Container // --> 
+    
+    <!-- \\ Begin Footer \\-->
+    <footer>
+      <div class="Center">
+        <form action="https://shenghuo.alipay.com/send/payment/fill.htm" method="POST" target="_blank" accept-charset="GBK" onsubmit="document.charset='GBK';">
+          <input name="optEmail" type="hidden" value="13796620268">
+          <p>Copyright © 2015 FutureTech  Group 京ICP备15061858号</p>
+          <input name="pay" type="image" src="http://main-pics.oss-cn-hangzhou.aliyuncs.com/alipay.png"  width="100" />
+          <input name="payAmount" type="hidden" value="2.33">
+          <input id="title" name="title" type="hidden" value="(^_^)">
+          <input name="memo" type="hidden" value="谢谢您的支持^_^">
+        </form>
+      </div>
+    </footer>
+    <!-- // End Footer // --> 
+    
+  </div>
+  <!-- // End Layout Frame // --> 
+  
+</div>
+<!-- // End Design Holder // -->
+
+</body>
+</html>
+<script type="text/javascript">
+   //创建和初始化地图函数：
+
+	var map = new BMap.Map("allmap");    // 创建Map实例
+	map.centerAndZoom(new BMap.Point(116.2807, 40.1607), 18);  // 初始化地图,设置中心点坐标和地图级别
+	map.addControl(new BMap.MapTypeControl());   //添加地图类型控件
+	map.setCurrentCity("北京");          // 设置地图显示的城市 此项是必须设置的
+	map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
+	map.enableDragging(); 
+    createMap();//创建地图
+
+</script>
