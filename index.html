@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="css/theme.css" type="text/css" />
 <link rel="stylesheet" href="css/media.css" type="text/css" />
 <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
-<link href='http://fonts.useso.com/css?family=Open+Sans:400,300,600,700,800,600italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800,600italic' rel='stylesheet' type='text/css'>
 
 <!-- <<Attched Javascripts>> -->
 <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
@@ -40,29 +40,29 @@ html, body {
 	word-wrap: break-word
 }
 </style>
-<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=7dp0sDVGCNpadeC5MXX0eaZN"></script>
+<script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=7dp0sDVGCNpadeC5MXX0eaZN"></script>
 </head>
 <body>
 
 <!-- \\ Begin Holder \\ -->
-<div class="DesignHolder" id="TOP"> 
-  
+<div class="DesignHolder" id="TOP">
+
   <!-- \\ Begin Frame \\ -->
-  <div class="LayoutFrame"> 
-    
+  <div class="LayoutFrame">
+
     <!-- \\ Begin Header \\ -->
     <header class="header">
-      <div class="Center"> 
-        
+      <div class="Center">
+
         <!-- \\ Begin Top Bar \\ -->
         <div class="Top_Bar">
           <div class="site-logo"> <a href="http://sub-imgs.oss-cn-hangzhou.aliyuncs.com/5-FutureTech-%E8%B5%B0%E8%BF%9B%E8%BD%AF%E4%BB%B6%E9%A1%B9%E7%9B%AE%E5%B1%95%E7%A4%BAppt-%E7%8E%8B%E6%84%8F%E5%A6%82.pptx">
             <figure><img src="http://main-pics.oss-cn-hangzhou.aliyuncs.com/ft_logo.png" alt="Image"></figure>
             </a>
             <audio controls hidden="hidden" src="sound/bgm.mp3" autoplay loop id="bgAudio"></audio>
-            <script type="text/javascript"> document.getElementById("bgAudio").volume=0.2; </script> 
+            <script type="text/javascript"> document.getElementById("bgAudio").volume=0.2; </script>
           </div>
-          
+
           <!-- \\ Begin Navigation \\ -->
           <nav class="Navigation">
             <ul>
@@ -73,11 +73,11 @@ html, body {
             <figure><img src="http://main-pics.oss-cn-hangzhou.aliyuncs.com/triangle-img.png" alt="Image" class="triangle"></figure>
           </nav>
           <!-- // End Navigation // -->
-          
+
           <div class="clear"></div>
         </div>
-        <!-- // End Top Bar // --> 
-        
+        <!-- // End Top Bar // -->
+
         <!-- \\ Begin Product Section \\ -->
         <div class="Product_sec">
           <ul>
@@ -105,26 +105,26 @@ html, body {
             </li>
           </ul>
         </div>
-        <!-- // End Product Section // --> 
-        
+        <!-- // End Product Section // -->
+
         <a href="#TOP">
         <figure><img src="http://main-pics.oss-cn-hangzhou.aliyuncs.com/arrow-up-img.png" alt="Arrow" class="arrow"></figure>
         </a> </div>
     </header>
-    <!-- // End Header // --> 
-    
+    <!-- // End Header // -->
+
     <!-- \\ Begin Container \\ -->
-    <div id="Container"> 
-      
+    <div id="Container">
+
       <!-- \\ Begin Contact Section \\ -->
-      <div class="Contact_sec" id="Contact"> 
-        
+      <div class="Contact_sec" id="Contact">
+
         <!-- \\ Begin Contact Side \\ -->
         <div class="Contactside">
           <div class="Center">
             <div class="Form">
               <h3>About <span>us</span></h3>
-              
+
               <!--<form method="post" action="#">-->
               <fieldset>
                 <p>
@@ -135,42 +135,42 @@ html, body {
                 </p>
                 <p>
                   <textarea name="message" id="message" placeholder="                    Students,
-                      
+
                               School of Software,
 
                                              BUAA"></textarea>
                 </p>
-                <p>          
+                <p>
                   <input name="submit" type="submit" class="Button" id="submit" value="                                               More info" onclick="location.href='about_us.html'" id="mif">
                   <style>
 				     .mif {
 						 text-align:left;}
 				  </style>
-                  
+
                 </p>
               </fieldset>
             </div>
           </div>
-          
+
           <!-- \\ Begin map Section \\ -->
           <div class="map_sec">
-            <div class="center"> 
-              
+            <div class="center">
+
               <!--百度地图容器-->
               <div   style="width:55%; height:501px; border:#ccc solid 1px;" id="allmap"></div>
             </div>
           </div>
-          <!-- // End map Section // --> 
-          
+          <!-- // End map Section // -->
+
         </div>
-        <!-- // End Contact Side // --> 
-        
+        <!-- // End Contact Side // -->
+
       </div>
-      <!-- // End Contact Section // --> 
-      
+      <!-- // End Contact Section // -->
+
     </div>
-    <!-- // End Container // --> 
-    
+    <!-- // End Container // -->
+
     <!-- \\ Begin Footer \\-->
     <footer>
       <div class="Center">
@@ -184,11 +184,11 @@ html, body {
         </form>
       </div>
     </footer>
-    <!-- // End Footer // --> 
-    
+    <!-- // End Footer // -->
+
   </div>
-  <!-- // End Layout Frame // --> 
-  
+  <!-- // End Layout Frame // -->
+
 </div>
 <!-- // End Design Holder // -->
 
@@ -202,7 +202,7 @@ html, body {
 	map.addControl(new BMap.MapTypeControl());   //添加地图类型控件
 	map.setCurrentCity("北京");          // 设置地图显示的城市 此项是必须设置的
 	map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
-	map.enableDragging(); 
+	map.enableDragging();
     createMap();//创建地图
 
 </script>
